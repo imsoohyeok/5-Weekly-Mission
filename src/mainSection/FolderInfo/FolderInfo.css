@@ -1,0 +1,28 @@
+.FolderInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2rem 0 6rem;
+  box-sizing: border-box;
+  background-color: #f0f6ff;
+}
+
+.FolderInfo-profile {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 4.7rem;
+}
+
+.FolderInfo-name {
+  margin-top: 1.2rem;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #000;
+}
+
+.FolderInfo-star {
+  margin-top: 2rem;
+  font-size: 4rem;
+  font-weight: 600;
+}

@@ -1,0 +1,40 @@
+.CardContent {
+  height: 100%;
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.CardContent-elapsed-time {
+  font-size: 1.3rem;
+  color: #666;
+}
+
+.CardContent-description {
+  display: flex;
+  align-self: stretch;
+  color: #000;
+  height: 4.9rem;
+  font-size: 1.6rem;
+  line-height: 150%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.CardContent-createdAt {
+  display: flex;
+  align-self: stretch;
+  color: #333;
+  height: 1.9rem;
+  font-size: 1.4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.CardContent.CardContent-hovered {
+  background-color: #f0f6ff;
+}
