@@ -1,4 +1,4 @@
-import { SigninLayout } from "@/src/page-layout/SigninLayout/SigninLayout";
+import { SigninLayout } from "./SigninLayout";
 
 const SigninPage = () => {
   return <SigninLayout />;

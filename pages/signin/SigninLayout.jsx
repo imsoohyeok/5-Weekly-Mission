@@ -30,3 +30,5 @@ const ItemsStyled = styled.div`
   margin-right: auto;
   margin-left: auto;
 `;
+
+export default SigninLayout;
