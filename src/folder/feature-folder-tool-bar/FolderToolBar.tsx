@@ -17,7 +17,7 @@ import { Folder, SelectedFolderId } from "@/src/folder/type";
 import { copyToClipboard, useKakaoSdk } from "@/src/sharing/util";
 import { useRouter } from "next/router";
 import device from "@/styles/config";
-import styles from "@/styles/global.module.css";
+import "@/styles/global.css";
 
 type FolderToolBarProps = {
   folders: Folder[];

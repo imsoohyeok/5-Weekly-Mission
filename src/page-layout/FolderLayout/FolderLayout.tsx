@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import styled from "styled-components";
 import device from "@/styles/config";
+import "@/styles/global.css";
 
 type FolderLayoutProps = {
   linkForm: ReactNode;
